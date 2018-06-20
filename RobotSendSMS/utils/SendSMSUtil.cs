@@ -24,7 +24,7 @@ namespace RobotSendSMS.utils
                     byte[] response = wb.UploadValues("http://api.txtlocal.com/send/", new NameValueCollection()    
                    {  
                        {"username","catacimpean@yahoo.com"},
-                       {"hash" , "bbb4b7d397b2c6d6183e436f4b9593bfa1e1dec933d349e51a245784c30d5098"},    
+                       {"hash" , "addMyHashHere"},    
                        {"numbers" ,  number},            
                        {"message" , encoddedMessageToSend},            
                        {"sender" , "VP"}         
